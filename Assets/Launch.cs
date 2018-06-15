@@ -8,7 +8,10 @@ public class Launch : MonoBehaviour {
 	public Rigidbody rb;
 	public	KeyCode vkey;
 	void Start(){
+		AudioSource sonido = GetComponent<AudioSource>();
+
 		rb = GetComponent<Rigidbody>();
+		sonido.Play();
 	}
 
 	void FixedUpdate(){
@@ -16,6 +19,7 @@ public class Launch : MonoBehaviour {
 
 		if(Input.GetKey("space")){
 			rb.AddForce(0,0.2f,0,ForceMode.Impulse);
+			
 		}
 	}
 }
