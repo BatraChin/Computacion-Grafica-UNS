@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 04bdeaf8ceea700468af54b530de0a28
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: door
+    100004: fuselage
+    100006: GANTRY01
+    100008: leftfin
+    100010: leftpod
+    100012: leftsuppor
+    100014: middlefin
+    100016: middlepod
+    100018: rightfin
+    100020: rightpod
+    100022: rightsupdo
+    100024: Sphere001
+    100026: supportleg
+    100028: VEHICLE01
+    100030: window
+    400000: //RootNode
+    400002: door
+    400004: fuselage
+    400006: GANTRY01
+    400008: leftfin
+    400010: leftpod
+    400012: leftsuppor
+    400014: middlefin
+    400016: middlepod
+    400018: rightfin
+    400020: rightpod
+    400022: rightsupdo
+    400024: Sphere001
+    400026: supportleg
+    400028: VEHICLE01
+    400030: window
+    2100000: 07___Default
+    2100002: 01___Default
+    2100004: 12___Default
+    2100006: 03___Default
+    2100008: 02___Default
+    2300000: door
+    2300002: fuselage
+    2300004: GANTRY01
+    2300006: leftfin
+    2300008: leftpod
+    2300010: leftsuppor
+    2300012: middlefin
+    2300014: middlepod
+    2300016: rightfin
+    2300018: rightpod
+    2300020: rightsupdo
+    2300022: Sphere001
+    2300024: supportleg
+    2300026: VEHICLE01
+    2300028: window
+    3300000: door
+    3300002: fuselage
+    3300004: GANTRY01
+    3300006: leftfin
+    3300008: leftpod
+    3300010: leftsuppor
+    3300012: middlefin
+    3300014: middlepod
+    3300016: rightfin
+    3300018: rightpod
+    3300020: rightsupdo
+    3300022: Sphere001
+    3300024: supportleg
+    3300026: VEHICLE01
+    3300028: window
+    4300000: door
+    4300002: fuselage
+    4300004: GANTRY01
+    4300006: leftfin
+    4300008: leftpod
+    4300010: leftsuppor
+    4300012: middlefin
+    4300014: middlepod
+    4300016: rightfin
+    4300018: rightpod
+    4300020: rightsupdo
+    4300022: Sphere001
+    4300024: supportleg
+    4300026: VEHICLE01
+    4300028: window
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
