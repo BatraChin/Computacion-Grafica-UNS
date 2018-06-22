@@ -14,23 +14,28 @@ public class ScriptLuces : MonoBehaviour {
        
          yield return new WaitForSeconds(1);    //Wait one frame
 	}*/
+
+	private bool lightOn;
+
 	void Start () {
-	/*	int turn=1;
-		while (true) {
-        MyCoroutine();
-		if(turn==1){
-        	myLight.intensity =0;
-			turn==0;
-		}
-		else{
-			turn=1;
-			myLight.intensity=2;
-		}
-    	}*/
+	
+	
+		InvokeRepeating("toggleLight",0,1);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+
+	public void toggleLight(){
+		lightOn=!lightOn;
+		if(lightOn){
+			GetComponent<Light>().intensity=0;
+		}else{
+			GetComponent<Light>().intensity=1;
+		}
+	}
+
 }
