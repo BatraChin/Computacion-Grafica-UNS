@@ -24,16 +24,16 @@ public class Launch : MonoBehaviour {
 			
 		}
 		if(Input.GetKey("a")){
-			transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime *3f , Space.World);
+			transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime *5f , Space.World);
 		}
 		if(Input.GetKey("d")){
-			transform.Rotate(new Vector3(0, 0, -1) * Time.deltaTime*3f , Space.World);
+			transform.Rotate(new Vector3(0, 0, -1) * Time.deltaTime*5f , Space.World);
 		}
 		if(Input.GetKey("w")){
-			transform.Rotate(new Vector3(1, 0, 0) * Time.deltaTime*3f , Space.World);
+			transform.Rotate(new Vector3(1, 0, 0) * Time.deltaTime*5f , Space.World);
 		}
 		if(Input.GetKey("s")){
-			transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime*3f , Space.World);
+			transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime*5f , Space.World);
 		}
 			//rb.AddTorque(0.4f,0.4f,0,ForceMode.Force);
 			
