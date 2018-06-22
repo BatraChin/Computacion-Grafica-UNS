@@ -16,10 +16,11 @@ public class ScriptLuces : MonoBehaviour {
 	}*/
 
 	private bool lightOn;
-
+	private	float intensidad;
 	void Start () {
-	
-	
+		intensidad = GetComponent<Light>().intensity;
+		//Haloo = GetComponent<Halo>().size;
+
 		InvokeRepeating("toggleLight",0,1);
 	}
 	
@@ -28,13 +29,13 @@ public class ScriptLuces : MonoBehaviour {
 		
 	}
 
-
 	public void toggleLight(){
 		lightOn=!lightOn;
 		if(lightOn){
 			GetComponent<Light>().intensity=0;
+
 		}else{
-			GetComponent<Light>().intensity=1;
+			GetComponent<Light>().intensity=intensidad;
 		}
 	}
 
