@@ -18,7 +18,7 @@ public class Launch : MonoBehaviour {
 					Debug.Log(vkey);
 
 		if(Input.GetKey("space")){
-			rb.AddForce(transform.up*0.2f,ForceMode.Impulse);
+			rb.AddForce(transform.up*0.3f,ForceMode.Impulse);
 			float turn = Input.GetAxis("Horizontal");
         	rb.AddTorque(transform.up * turn*2);
 			
