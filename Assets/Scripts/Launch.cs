@@ -7,8 +7,10 @@ public class Launch : MonoBehaviour {
 
 	public Rigidbody rb;
 	public	KeyCode vkey;
+	public GameObject fueguito;
 	void Start(){
 		AudioSource sonido = GetComponent<AudioSource>();
+		fueguito=GameObject.FindWithTag("Fire");
 
 		rb = GetComponent<Rigidbody>();
 		sonido.Play();
@@ -16,8 +18,14 @@ public class Launch : MonoBehaviour {
 
 	void FixedUpdate(){
 					Debug.Log(vkey);
+		
+		if(Input.GetKey("space")==false){
+					fueguito.SetActive(false);
 
+		}
 		if(Input.GetKey("space")){
+			fueguito.SetActive(true);
+
 			rb.AddForce(transform.up*0.3f,ForceMode.Impulse);
 			float turn = Input.GetAxis("Horizontal");
         	rb.AddTorque(transform.up * turn*2);
