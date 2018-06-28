@@ -18,22 +18,22 @@ public class Launch : MonoBehaviour {
 					Debug.Log(vkey);
 
 		if(Input.GetKey("space")){
-			rb.AddForce(transform.up*0.2f,ForceMode.Impulse);
+			rb.AddForce(transform.up*0.8f,ForceMode.Impulse);
 			float turn = Input.GetAxis("Horizontal");
         	rb.AddTorque(transform.up * turn*2);
 			
 		}
 		if(Input.GetKey("a")){
-			transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime *5f , Space.World);
+			transform.Rotate(new Vector3(0, 0, 1) * Time.deltaTime *30f , Space.World);
 		}
 		if(Input.GetKey("d")){
-			transform.Rotate(new Vector3(0, 0, -1) * Time.deltaTime*5f , Space.World);
+			transform.Rotate(new Vector3(0, 0, -1) * Time.deltaTime*30f , Space.World);
 		}
 		if(Input.GetKey("w")){
-			transform.Rotate(new Vector3(1, 0, 0) * Time.deltaTime*5f , Space.World);
+			transform.Rotate(new Vector3(1, 0, 0) * Time.deltaTime*30f , Space.World);
 		}
 		if(Input.GetKey("s")){
-			transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime*5f , Space.World);
+			transform.Rotate(new Vector3(-1, 0, 0) * Time.deltaTime*30f , Space.World);
 		}
 			//rb.AddTorque(0.4f,0.4f,0,ForceMode.Force);
 			
