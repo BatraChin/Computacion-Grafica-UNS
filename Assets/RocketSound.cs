@@ -7,20 +7,26 @@ public class RocketSound : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	sonido = GetComponent<AudioSource>();
-
+	sonido.Stop();
 	}
-	
+
+
 	// Update is called once per frame
 	void FixedUpdate () {
 
-		if(Input.GetKey("space")==false){
-					sonido.Stop();
-
+		if (!sonido.isPlaying){
+			if(Input.GetKey("space")){
+				sonido.Play();
+			}
 		}
-		if(Input.GetKey("space")){
 			
-			sonido.Play();
-			
+		
+		if (sonido.isPlaying){
+			if(Input.GetKey("space")==false){
+				sonido.Stop();
+			}
 		}
+			
+	
 	}
 }
