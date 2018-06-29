@@ -31,6 +31,10 @@ public class skyScript : MonoBehaviour {
 			}
 
 		}
+		if(Input.GetKey("p")){
+			AudioSource sonido = GetComponent<AudioSource>();
+			sonido.Play();
+		}
 	}
 
 }

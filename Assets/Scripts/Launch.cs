@@ -26,7 +26,7 @@ public class Launch : MonoBehaviour {
 		if(Input.GetKey("space")){
 			fueguito.SetActive(true);
 
-			rb.AddForce(transform.up*0.3f,ForceMode.Impulse);
+			rb.AddForce(transform.up*0.2f,ForceMode.Impulse);
 			float turn = Input.GetAxis("Horizontal");
         	rb.AddTorque(transform.up * turn*2);
 			
