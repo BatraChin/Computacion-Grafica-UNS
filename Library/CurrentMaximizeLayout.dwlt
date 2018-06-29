@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 917, y: 442}
-  m_MaxSize: {x: 22012, y: 10021}
+  m_MinSize: {x: 913, y: 442}
+  m_MaxSize: {x: 22008, y: 10000}
   vertical: 0
-  controlID: 46910
+  controlID: 47848
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 46911
+  controlID: 47849
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 317
     width: 651
     height: 318
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -332,9 +332,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e850200
-    m_LastClickedID: 165278
-    m_ExpandedIDs: 4c74ebffde74ebff7075ebff0276ebff9476ebff2677ebffb877ebff4a78ebffdc78ebff6e79ebff3ca1eeffaea3eefffecbeeffacd4eeff50d6eeff5eddeeff84e1eeff9ef3eeff96ecf6ffa617f7ff28a4fafffc39fbff180fffff325fffff08a7ffff000000006042000080420000c04200001c430000d643000048450000684500008a180200dc190200c81b0200d81b0200181c0200621c0200a6850200
+    m_SelectedIDs: 5c7c0200
+    m_LastClickedID: 0
+    m_ExpandedIDs: 4c74ebffde74ebff7075ebff0276ebff9476ebff2677ebffb877ebff4a78ebffdc78ebff6e79ebff3ca1eeffaea3eefffecbeeffacd4eeff50d6eeff5eddeeff84e1eeff9ef3eeff96ecf6ffa617f7ff28a4fafffc39fbff180fffff325fffff08a7ffff000000006042000080420000c04200001c430000d643000048450000684500008a180200dc190200c81b0200d81b0200181c0200621c0200a6850200bc8702008e8a0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,20 +419,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/SkySerie Freebie
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/SkySerie Freebie/FreebieHdri
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Guille\Universidad\TDP\Computacion-Grafica-UNS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c3d0000
-    m_LastClickedID: 15660
-    m_ExpandedIDs: 00000000f43800007439000082390000e6390000403a0000683a0000d23a00000a3b00006c3b00007e3b0000863b0000a23b0000bc3b0000c23b0000f23b0000123c0000463c0000323f00008e3f0000b0410000d241000084050200b8050200c20502003e74020062740200807b020000ca9a3bffffff7f
+    m_SelectedIDs: 807b0200
+    m_LastClickedID: 162688
+    m_ExpandedIDs: 00000000f43800007439000082390000e6390000403a0000683a0000d23a00000a3b00006c3b00007e3b0000863b0000a23b0000bc3b0000c23b0000f23b0000123c0000463c00002c3d0000323f00008e3f0000b0410000d241000084050200b8050200c20502003e74020062740200807b020000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,8 +485,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9e850200
-    m_LastClickedInstanceID: 165278
+    m_SelectedInstanceIDs: 5c7c0200
+    m_LastClickedInstanceID: 162908
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -512,7 +512,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 467}
+    m_ScrollPosition: {x: 0, y: 780}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &12
