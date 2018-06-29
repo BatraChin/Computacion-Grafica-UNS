@@ -9,15 +9,15 @@ public class Launch : MonoBehaviour {
 	public	KeyCode vkey;
 	public GameObject fueguito;
 	void Start(){
-		AudioSource sonido = GetComponent<AudioSource>();
+		//AudioSource sonido = GetComponent<AudioSource>();
 		fueguito=GameObject.FindWithTag("Fire");
 
 		rb = GetComponent<Rigidbody>();
-		sonido.Play();
+		//sonido.Play();
 	}
 
 	void FixedUpdate(){
-					Debug.Log(vkey);
+
 		
 		if(Input.GetKey("space")==false){
 					fueguito.SetActive(false);
