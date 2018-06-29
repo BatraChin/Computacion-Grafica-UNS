@@ -9,6 +9,7 @@ TagManager:
   - CameraDisplay3
   - CameraDisplay4
   - CameraDisplay5
+  - Iluminacion
   layers:
   - Default
   - TransparentFX

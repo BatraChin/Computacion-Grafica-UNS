@@ -106,11 +106,11 @@ public class Camara : MonoBehaviour {
 		}
 		if(Input.GetKey("5")){
 			
-			enableCamera(CameraDisplay4);
+			enableCamera(CameraDisplay5);
 			disableCamera(MainCamera);
 			disableCamera(CameraDisplay2);
 			disableCamera(CameraDisplay3);
-			disableCamera(CameraDisplay5);
+			disableCamera(CameraDisplay4);
 			/*
 			CameraDisplay5.enabled=true;
 

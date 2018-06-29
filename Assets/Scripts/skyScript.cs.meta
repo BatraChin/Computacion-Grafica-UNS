@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: af9cf39e69e3f7d4983760d31fb31c5c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skyDia: {fileID: 2100000, guid: 68eb762a81a34254aa10eaadf5c1df8c, type: 2}
+  - skyNoche: {fileID: 2100000, guid: 16bc8a9d5451ca44d8f70575adbece3a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
