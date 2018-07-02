@@ -49,14 +49,7 @@ public class Camara : MonoBehaviour {
 			disableCamera(CameraDisplay4);
 			disableCamera(CameraDisplay5);
 			
-			/* 
-			MainCamera.enabled=true;
 			
-			CameraDisplay2.enabled=false;
-			CameraDisplay3.enabled=false;
-			CameraDisplay4.enabled=false;
-			CameraDisplay5.enabled=false;
-*/
 		}
 		if(Input.GetKey("2")){
 
@@ -67,12 +60,7 @@ public class Camara : MonoBehaviour {
 			disableCamera(CameraDisplay3);
 			disableCamera(CameraDisplay4);
 			disableCamera(CameraDisplay5);
-			/* 
-			CameraDisplay3.enabled=false;
-			CameraDisplay4.enabled=false;
-			MainCamera.enabled=false;	
-			CameraDisplay2.enabled=true;
-			CameraDisplay5.enabled=false;*/
+			
 		}
 		if(Input.GetKey("3")){
 			
@@ -82,12 +70,7 @@ public class Camara : MonoBehaviour {
 			disableCamera(CameraDisplay2);
 			disableCamera(CameraDisplay4);
 			disableCamera(CameraDisplay5);
-			/* 
-			CameraDisplay3.enabled=true;
-			CameraDisplay4.enabled=false;
-			MainCamera.enabled=false;	
-			CameraDisplay2.enabled=false;	
-			CameraDisplay5.enabled=false;	*/
+			
 		}
 		if(Input.GetKey("4")){
 
@@ -97,12 +80,7 @@ public class Camara : MonoBehaviour {
 			disableCamera(CameraDisplay2);
 			disableCamera(CameraDisplay3);
 			disableCamera(CameraDisplay5);
-			/*
-			CameraDisplay3.enabled=false;
-			CameraDisplay4.enabled=true;
-			MainCamera.enabled=false;	
-			CameraDisplay2.enabled=false;
-			CameraDisplay5.enabled=false;		*/
+			
 		}
 		if(Input.GetKey("5")){
 			
@@ -111,14 +89,7 @@ public class Camara : MonoBehaviour {
 			disableCamera(CameraDisplay2);
 			disableCamera(CameraDisplay3);
 			disableCamera(CameraDisplay4);
-			/*
-			CameraDisplay5.enabled=true;
-
 			
-			MainCamera.enabled=false;
-			CameraDisplay2.enabled=false;
-			CameraDisplay3.enabled=false;
-			CameraDisplay4.enabled=false;*/
 		}
 	}
 }

@@ -3,7 +3,16 @@ guid: 17827d7dc2e57cf449d42250b82c5dc3
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - MainCamera: {instanceID: 0}
+  - skyDia: {fileID: 2100000, guid: 68eb762a81a34254aa10eaadf5c1df8c, type: 2}
+  - skyNoche: {fileID: 2100000, guid: 16bc8a9d5451ca44d8f70575adbece3a, type: 2}
+  - CameraDisplay2: {instanceID: 0}
+  - CameraDisplay3: {instanceID: 0}
+  - CameraDisplay4: {instanceID: 0}
+  - CameraDisplay5: {instanceID: 0}
+  - player: {instanceID: 0}
+  - audio: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
